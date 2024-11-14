@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #111111;
+    overflow-x: hidden;
+    color: rgb(202, 219, 219);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+   /* border: 05px solid red;*/
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 375px) {
+    .res-w{
+        width: 375px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 425px) {
+    .res-w{
+        width: 425px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .res-w{
+        width: 768px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) {
+    .res-w{
+        width: 1024px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1224px) {
+    .res-w{
+        width: 1224px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .res-w{
+        width: 1440px;
+
+    }
+    
+}
+@media only screen and (min-width: 1650px) {
+    .res-w{
+        width: 1650px;
+    }
+}
+@media only screen and (min-width: 1920px) {
+    .res-w{
+        width: 1920px;
+    }
 }
