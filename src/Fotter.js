@@ -62,7 +62,7 @@ const Fotter = () => {
 
 <div className='w-full py-2 bg-oasim shadow-inner shadow-zinc-700'> 
     <div className='w-90 text-white  text-center text-base  md:text-lg'> 
-    Copyrights ©2024 All Rights Reserved <Link to="https://rangcon.com" className='text-rose-600'> Rangcon </Link> 
+    Copyrights ©2024 All Rights Reserved <Link to="https://oasim.com" className='text-rose-600'> oasim </Link> 
 
     </div>
 

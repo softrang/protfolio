@@ -11,7 +11,7 @@ const {sucsess} = useDeta()
             <div className='w-full md:w-4/12'>
             <p className='text-2xl  md:text-3xl mb-5'> Welcome to  My Portfolio! </p>
             <p className=' text-5xl md:text-5xl mb-7'> I'am  <br/> MD Oasim Mia  </p>
-            <p className=' text-6xl md:text-5xl mb-7 upercase'> A Best Designer  </p>
+            <p className=' text-5xl md:text-4xl mb-7 upercase'> A Front-end Developer  </p>
             <p className='text-base md:text-xl mb-5'> Explore my work, expertise, and projects. Discover how I can help bring your vision to life. </p>
             
 

@@ -12,7 +12,7 @@ const Service = () => {
   const {service} = useDeta()
 
   return (
-    <div className='w-full py-5'>
+    <div  className='w-full py-5'>
         <div className='w-90 m-auto'> 
             <p className='text-center text-2xl md:text-4xl'> My Services </p>
             <p className='text-center text-base md:text-lg'>My Services include a wide range of professional solutions tailored to meet your specific needs. </p>

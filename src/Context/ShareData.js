@@ -184,11 +184,11 @@ const showcase =[
     },
     {
         image:catagori, title:"Product Mangment", Lang:"React.js", dic:"Use Reducx and Redux-toolkit, useState useRef Tawlind CSS for UI/UX"
-, link:"https://productmanagementdeshborad.netlify.app"
+, link:"https://productmd.netlify.app"
     },
     {
         image:catagori, title:"", Lang:"React.js", dic:"Use Reducx and Redux-toolkit, Context api, useState useRef Tawlind CSS for UI/UX"
-, link:"https://productmanagementdeshborad.netlify.app"
+, link:"https://productmd.netlify.app"
     },
 ]
 

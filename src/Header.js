@@ -13,7 +13,7 @@ const Header = () => {
     </div>
     <div className='w-9/12 flex gap-2  text-white justify-end uppercase'>
     {["home", "Services",  "Work", "Blog", "Hiring Me"].map((item, index) => (
-      <Link to={["/", "/service", "/work", "/blog" ,"hiring"  ][index]} key={index} className={`text-lg p-2 px-3  ${index===4 && "ml-32 bg-violet-500 text-white"} `}>{item}</Link>
+      <Link to={["/", "#service", "#work", "#blog" ,"#hiring"  ][index]} key={index} className={`text-lg p-2 px-3  ${index===4 && "ml-32 bg-violet-500 text-white"} `}>{item}</Link>
     ))}
   </div>
   </div>
